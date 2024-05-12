@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #c5ebd6;
+
+}
+
+header {
+    
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom,#3DDC84, #2FA866, #063D1E); 
+    padding: 30px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+    text-indent: 30px;
+}
+
+#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+nav {
+    background-color: #063D1E;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.116);
+
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: none;
+    border-radius: 10px;
+}
+
+nav > a:hover {
+    background-color: #3ddc84;
+    color: #063d1e;
+}
+ 
+
+.titulo {
+    font-family: 'Android', 'sans-seirf', 'Times';
+    color: #063D1E;
+    background-color: #83e1ad46;
+}
+
+#subtitulo {
+    font-family: 'Android', 'sans-seirf', 'Times';
+    color: #063D1E;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.24);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+
+}
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+main img.irina {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+main img.droid {
+    display: block;
+    margin: auto;
+}
+
+strong {
+    color: #063D1E;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
+}
+
+#dan {
+    font-weight: bolder;
+    color: #063D1E;
+    background-color: #3ddc85ad;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#dan:hover {
+    text-decoration: underline;
+}
+
+#ink {
+    font-weight: bolder;
+    color: #063D1E;
+    background-color: #3ddc85ad;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#ink:hover {
+    text-decoration: underline;
+}
+
+#irina {
+    font-weight: bolder;
+    color: #063D1E;
+    background-color: #3ddc85ad;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#irina:hover {
+    text-decoration: underline;
+}
+
+div.video {
+    position: relative;
+    background-color: #063D1E;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 2.0em;
+    background-color: #83E1AD;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    text-align: start;
+    
+    
+}
+
+#android {
+    font-weight: bolder;
+    color: #063D1E;
+    background-color: #3ddc85ad;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#android:hover {
+    text-decoration: underline;
+}
+
+aside > p {
+    text-indent: 30px;
+    margin-left: 10px;
+    
+}
+
+p {
+    text-indent: 30px;
+    margin-left: 5px;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+#borda {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px 20px -10px;
+    padding: 8px;
+    color: white;
+    
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #2FA866;
+    padding: 1px;
+    margin: 20px;
+}
+
+#gustavo {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#gustavo:hover {
+    text-decoration: none;
+    background-color: white; 
+    color: black;
+}
+
+#curso {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#curso:hover{
+    text-decoration: none;
+    background-color: white; 
+    color: black;
+}

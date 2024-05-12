@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(255, 255, 255); 
+}
+h1 {
+color: blue;
+}
+h2 {
+color: rgb(185, 185, 185);
+}
+
+figure {
+color: azure;
+}
+
+.links a {
+    text-decoration: none;
+}
