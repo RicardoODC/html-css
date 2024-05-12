@@ -9,9 +9,20 @@
     font-style: normal;
   }
 
+  :root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
 body {
@@ -29,12 +40,28 @@ header {
     margin: auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
     text-indent: 30px;
+    
+}
+
+header h1 {
+    font-size: 3em;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
 }
 
 #titulo {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    color: rgba(255, 255, 255, 0.658);
+    font-family: Arial, Helvetica, sans-serif;   
+  font-size: 1.2em;
+  color: white;
+  max-width: 600px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: auto;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
+  font-weight: lighter;
+    
 }
 
 nav {
@@ -52,9 +79,11 @@ nav > a {
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: none;
     border-radius: 10px;
+    transition-duration: .5s;
 }
 
 nav > a:hover {
+    
     background-color: #3ddc84;
     color: #063d1e;
 }
@@ -62,13 +91,21 @@ nav > a:hover {
 
 .titulo {
     font-family: 'Android', 'sans-seirf', 'Times';
-    color: #063D1E;
-    background-color: #83e1ad46;
+    color: var(--cor4);
+    background-image: -moz-linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 10px;
+    border-radius: 4px;
+    font-size: 1.3em;
+    font-weight: lighter;
 }
 
 #subtitulo {
     font-family: 'Android', 'sans-seirf', 'Times';
     color: #063D1E;
+    text-indent: 10px;
+    font-size: 1.8em;
+    font-weight: lighter;
+    
 }
 
 main {
@@ -80,8 +117,12 @@ main {
     max-width: 1000px;
     padding: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.24);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+    line-height: 2em;
 
+}
+
+article > p {
+    margin: 15px 0px;
 }
 
 main img.pequena {
@@ -99,7 +140,9 @@ main img.irina {
 main img.droid {
     display: block;
     margin: auto;
+    width: 100%;
 }
+
 
 strong {
     color: #063D1E;
@@ -144,6 +187,8 @@ strong {
 #irina:hover {
     text-decoration: underline;
 }
+
+
 
 div.video {
     position: relative;
@@ -227,7 +272,7 @@ footer {
 }
 
 #gustavo {
-    font-weight: bolder;
+    font-weight: bold;
     color: white;
     text-decoration: none;
     padding-left: 5px;
@@ -235,13 +280,12 @@ footer {
 }
 
 #gustavo:hover {
-    text-decoration: none;
-    background-color: white; 
-    color: black;
+    text-decoration: underline;
+    color: #063D1E;
 }
 
 #curso {
-    font-weight: bolder;
+    font-weight: bold;
     color: white;
     text-decoration: none;
     padding-left: 5px;
@@ -249,7 +293,6 @@ footer {
 }
 
 #curso:hover{
-    text-decoration: none;
-    background-color: white; 
-    color: black;
+    text-decoration: underline;
+    color: #063D1E;
 }
