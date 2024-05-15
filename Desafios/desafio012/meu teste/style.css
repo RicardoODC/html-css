@@ -46,7 +46,7 @@ header a:hover{
     text-decoration: underline;
 }
 
-main p {
+section  {
     text-indent: 30px;
     line-height: 2em;
     font-family: var(--fonte-Sriracha);
